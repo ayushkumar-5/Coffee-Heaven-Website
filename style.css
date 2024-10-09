@@ -1,0 +1,323 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+body {
+    background-image: url('/Image/Untitled\ design.png');
+background-attachment:fixed;
+    background-size: contain; /* Adjusts size of the image to fit within the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image within the container */
+    
+}
+.hero {
+    color: #e38773; /* Coffee color */
+    padding: 20px;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Adjust as needed for spacing */
+}
+
+.hero-image {
+    height: 500px;
+    width: 500px;
+}
+
+h21 {
+    font-family: Georgia, serif;
+    font-size: 6.4rem; /* Adjust as needed */
+    color: #000;
+}
+
+p1 {
+    font-family: Georgia, serif;
+    display: grid;
+    padding: 40px;
+    font-size: 1.5rem; /* Adjust as needed */
+
+}
+
+.btn {
+    background-color: #e38773; /* Darker orange */
+    color: #111010; /* White text */
+    padding: 10px 30px;
+    text-decoration: none;
+    font-family: Georgia, serif;
+    font-size: 1.3rem; /* Adjust as needed */
+    border-radius: 5px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: #ffff; /* Coffee color for the background */
+    align-items: center;
+    
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    font-size: 18px;
+    gap: 60px;
+    list-style-type: none;
+    margin-left: auto;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #0d0c0b; /* Wheat color for the links */
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #8b4513; /* SaddleBrown color for hover effect */
+    color: #f5deb3; /* Maintain wheat color on hover */
+}
+
+.hero-content h2 {
+    text-align: center;
+}
+.hero{
+    text-align: center;
+}
+.container h1{
+    color:#57291e;
+    text-align: center;
+}
+.coffee-collection{
+    display: flex;
+    font-family:'Poppins';
+    font-size: 18px;
+    color:black;
+}
+.imagethree{
+    padding: 30px;
+}
+.coffee-item{
+    padding: 40px;
+    align-items: center;
+    
+}
+
+.button2 {
+  background-color: rgba(51, 51, 51, 0.05);
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0 auto;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  /* vertical-align: baseline; */
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  display: block;
+}
+.coffee-item h2 {
+    /* Your CSS styles here */
+    color: #221512; /* Example: Change text color */
+    font-size: 24px; /* Example: Change font size */
+    margin-top: 10px; /* Example: Add space above the h2 */
+    text-align: center; /* Example: Center align the text */
+}
+
+.about-shop {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+
+.about-shop h2 {
+    font-size: 36px;
+    color: #333333;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.text-box {
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+    border-radius: 8px;
+}
+
+.text-box h3 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.text-box p2 {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.read-more {
+    padding: 10px 20px;
+    border: 2px solid #ff6f61;
+    background-color: transparent;
+    color: #ff6f61;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.read-more:hover {
+    background-color: #ff6f61;
+    color: #ffffff;
+}
+
+.image-box {
+    flex-shrink: 0;
+}
+
+.image-box img {
+    max-width: 500px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu-overlay {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 750px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
+.menu-overlay .imagemenu {
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: brightness(50%); /* Dim the image for better text visibility */
+}
+
+.menu-overlay .text-content {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white; /* Adjust text color for visibility */
+    text-align: center;
+    width: 90%; /* Adjust width if necessary */
+    padding: 20px; /* Optional: Add padding around the text */
+}
+
+.menu-overlay .text-content h3 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.menu-overlay .text-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+.text-content h3{
+    color: khaki;
+}
+
+/*footer*/
+/* Footer */
+footer {
+    background-color: #211f1f; /* Dark background color */
+    color: #e38773; /* Coffee color for text */
+    padding: 20px 0;
+    text-align: center;
+    font-family: Georgia, serif;
+    border-top: 2px solid #ff6600; /* Darker orange for a top border */
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+    color: #ffffff; /* White text color */
+}
+
+footer .social-links {
+    margin-top: 10px;
+}
+
+footer .social-links a {
+    margin: 0 10px;
+    color: #00c98a; /* Green accents for social links */
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+footer .social-links a:hover {
+    color: #046b2d; /* Darker green on hover */
+}
+
+/* Contact Section */
+.contact {
+    background-color: #fefafa; /* Dark background color */
+    color: #171212; /* White text color */
+    padding: 50px 20px;
+    text-align: center;
+    font-family: Georgia, serif;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    color: #e38773; /* Coffee color for the heading */
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.contact p a {
+    color: #00c98a; /* Green accents for links */
+    text-decoration: none;
+}
+
+.contact p a:hover {
+    color: #046b2d; /* Darker green on hover */
+}
