@@ -2,6 +2,7 @@
 # Coffee-Heaven-Website
 This is a website for Coffee Heaven, a coffee shop offering a variety of coffee drinks, tea, and other beverages, alongside some food items. The website is built using HTML, CSS, and potentially Javascript for interactive elements.
 
+Visit the Site: <https://ayushkumar-5.github.io/Coffee-Heaven-Website/>
 ## Preview
 <img width="1439" alt="image" src="https://github.com/user-attachments/assets/f581e51f-144a-48a8-9348-05099170a35d">
 <img width="1439" alt="image" src="https://github.com/user-attachments/assets/c10d3eb9-ec03-4d66-a7c0-fe72d27a8bce">
