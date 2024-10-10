@@ -4,9 +4,8 @@ This is a website for Coffee Heaven, a coffee shop offering a variety of coffee 
 
 Visit the Site: <https://ayushkumar-5.github.io/Coffee-Heaven-Website/>
 ## Preview
-<img width="1439" alt="image" src="https://github.com/user-attachments/assets/f581e51f-144a-48a8-9348-05099170a35d">
-<img width="1439" alt="image" src="https://github.com/user-attachments/assets/c10d3eb9-ec03-4d66-a7c0-fe72d27a8bce">
-<img width="1439" alt="image" src="https://github.com/user-attachments/assets/b51a5692-d621-4bce-afc3-2e91dcb92585">
+![dropdown Website (Community)](https://github.com/user-attachments/assets/7eab7124-5db8-4484-aacf-7cde24eca9c7)
+
 
 ## Technology Used
 
